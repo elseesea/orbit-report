@@ -13,7 +13,7 @@ export class Satellite {
 		this.launchDate = launchDate;
 	}
 	
-	shouldShowWarning() :boolean {
+	shouldShowWarning(): boolean {
 		if (this.type.toLowerCase() === 'Space Debris'.toLowerCase()) {
 			return true;
 		}
